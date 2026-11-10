@@ -74,3 +74,4 @@
 
 ## 📫 Контакты
 * GitHub: [@nikitos7626](https://github.com/nikitos7626)
+* Telegram: @nikitos7626

@@ -5,7 +5,7 @@
 
 ---
 
-## ⚡ Избранные инженерные проекты (Flagship Projects)
+## ⚡ Избранные  проекты (Flagship Projects)
 
 ### 1. [VOLT (`volt-voice`)](https://github.com/nikitos7626/volt-voice)
 > **Self-Hosted мессенджер с 2K 60fps демонстрацией экрана, студийным Hi-Fi плеером и нативным клиентом на Rust**

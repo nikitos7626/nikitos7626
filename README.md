@@ -44,6 +44,20 @@
 
 ---
 
+---
+
+### 4. [Tic-Tac-Toe Multiplayer Service (`tictac-multiplayer-service`)](https://github.com/nikitos7626/tictac-multiplayer-service)
+> **Бэкенд-сервис для многопользовательской игры в «Крестики-нолики» (PvP/PvE) на Java 21 и Spring Boot 3**
+
+* **Стек:** Java 21, Spring Boot 3.3, Spring Security, Spring Data JPA, Hibernate, PostgreSQL, Docker, Maven.
+* **Фичи:**
+  * Реализация игрового движка с поддержкой многопользовательских матчей между игроками (PvP) и одиночного режима против компьютера.
+  * Система регистрации, аутентификации и разграничения прав доступа на базе Spring Security.
+  * Персистентное хранение истории матчей, игровых полей и статистики игроков в PostgreSQL через Spring Data JPA.
+  * Модульная слоистая архитектура (Controller ➔ Service ➔ Repository ➔ Entity) с валидацией ходов и обработкой состояния игровых сессий.
+
+---
+
 ## 🛠️ Технологический стек
 
 | Область | Технологии |

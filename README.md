@@ -8,12 +8,12 @@
 ## ⚡ Избранные  проекты (Flagship Projects)
 
 ### 1. [VOLT (`volt-voice`)](https://github.com/nikitos7626/volt-voice)
-> **Self-Hosted мессенджер с 2K 60fps демонстрацией экрана, студийным Hi-Fi плеером и нативным клиентом на Rust**
+> **Self-Hosted мессенджер с 2K 60fps демонстрацией экрана, студийным музыкальным плеером и нативным клиентом на Rust**
 
-* **Стек:** Rust (`tao` + `wry`), LiveKit SFU, Python 3.12, FFmpeg (`libsoxr 28-bit`), WebRTC, Caddy, Docker.
+* **Стек:** Rust (`tao` + `wry`), LiveKit SFU, Python 3.12, FFmpeg, WebRTC, Caddy, Docker.
 * **Фичи:**
   * Потоковая трансляция экрана до `2560×1440 @ 60fps` (`VP9`, `25 Mbps`) без ограничений битрейта.
-  * Студийный аудиотракт `48 kHz Stereo Opus 260+ kbps` с калибровкой кадра 20.0 мс, EQ и защитой от обрезки низких частот.
+  * Встроенный плеер со сбалансированным звуком, эквалайзером и воспроизведением музыки из Spotify, YouTube, радио и файлов.
   * Нативный Windows-клиент размером всего **~760 КБ** с аппаратной привязкой сессии (`MachineGuid`), автообновлением по `SHA-256` и защитой от троттлинга в играх.
   * Серверная защита ядра от фейковых DPI-пакетов (`iptables raw PREROUTING`) для 100% стабильности сокета.
 
@@ -64,7 +64,7 @@
 | :--- | :--- |
 | **Языки программирования** | Python 3.10+, Java 21, Rust, JavaScript / TypeScript, SQL, Bash |
 | **Бэкенд и микросервисы** | FastAPI, Spring Boot 3, aiohttp, Node.js (Express), REST API, WebSockets |
-| **Системная разработка & WebRTC** | LiveKit SFU, wry/tao, Edge WebView2, FFmpeg (libsoxr), PCM аудио, iptables |
+| **Системная разработка & WebRTC** | LiveKit SFU, wry/tao, Edge WebView2, FFmpeg, WebRTC, iptables |
 | **Data & AI / NLP** | LLM (Groq, OpenAI, Gemini), RAG, Prompt Engineering, Guardrails, GLiNER, FlashText |
 | **Базы данных & брокеры** | PostgreSQL, SQLite, Redis |
 | **DevOps & инфраструктура** | Docker, Docker Compose, Linux VPS (Ubuntu/Debian), Nginx, Caddy, Git |
